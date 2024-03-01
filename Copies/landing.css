@@ -1,0 +1,168 @@
+body {
+    background-color: #222;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+    margin:  0;
+    padding:  0;
+}
+
+.top-layer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:   5px;
+    background-color: #222;
+    color: #ddd;
+    border-bottom:   1px solid #333;
+}
+
+.logo {
+    display: flex;
+    height: auto;
+    width:  180px;
+    max-height: 50px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.logo img {
+    width:   50px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.center-top-layer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    width:   100%;
+    height:  50px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.Nav-Box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-option-container {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-option {
+    appearance: none;
+    background-color: transparent;
+    color: #fff; 
+    border: none;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    padding:  20px;
+    transition: background-color  0.3s ease;
+}
+
+.nav-option:hover {
+    color: #d8b4fe;
+}
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    align-content: center;
+    margin-top: 50px;
+    background-color: #222;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding:  10px  10px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    color: #d8b4fe;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+    text-decoration: none;
+    transition: color   0.3s ease;
+}
+.x-icon {
+    fill: white;
+    height: 54px;
+    width: 60px;
+    justify-content: center;
+    scale: 70%;
+}
+.tikTok-icon {
+    fill: white;
+    height: 56px;
+    width: 60px;
+    justify-content: center;
+    scale: 55%;
+}
+
+.discord-icon {
+    fill: white;
+    height: 45px;
+    width: 60px;
+    justify-content: center;
+    scale: 80%;
+}
+
+.x-icon:hover, .tikTok-icon:hover, .discord-icon:hover {
+    fill: purple;
+    cursor: pointer;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+.banner {
+    background-color: #007bff;
+    color: white;
+    padding:   50px   0;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size:   48px;
+    margin-bottom:   20px;
+}
+
+.discord-link {
+    display: inline-block;
+    padding:   10px   20px;
+    background-color: #474749;
+    color: white;
+    text-decoration: none;
+    border-radius:   5px;
+    transition: background-color   0.3s ease;
+}
+
+.discord-link:hover {
+    background-color: #5a67d8;
+}
+.bi-chevron-down {
+    transform: translateY(4px);
+}
